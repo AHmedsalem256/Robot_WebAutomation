@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.11.9 on win32)" generated="2025-03-26T23:19:57.766295" rpa="true" schemaversion="5">
+<suite id="s1" name="Robot WebAutomation" source="F:\Testing\Automatic_testing\Robot_VsCode\Robot_WebAutomation">
+<suite id="s1-s1" name="File" source="F:\Testing\Automatic_testing\Robot_VsCode\Robot_WebAutomation\File.robot">
+<test id="s1-s1-t1" name="Task_1" line="8">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-26T23:19:58.476206" level="INFO">HELLO WORLD</msg>
+<arg>HELLO WORLD</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-26T23:19:58.475159" elapsed="0.002046"/>
+</kw>
+<status status="PASS" start="2025-03-26T23:19:58.468419" elapsed="0.009739"/>
+</test>
+<status status="PASS" start="2025-03-26T23:19:57.942876" elapsed="0.540284"/>
+</suite>
+<status status="PASS" start="2025-03-26T23:19:57.782423" elapsed="0.708051"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot WebAutomation">Robot WebAutomation</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="File">Robot WebAutomation.File</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

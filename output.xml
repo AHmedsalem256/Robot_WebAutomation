@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.12 on win32)" generated="20250326 23:19:46.482" rpa="true" schemaversion="3">
+<suite id="s1" name="File" source="f:\Testing\Automatic_testing\Robot_VsCode\Robot_WebAutomation\File.robot">
+<test id="s1-t1" name="Task_1" line="8">
+<kw name="Log" library="BuiltIn">
+<arg>HELLO WORLD</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20250326 23:19:46.641" level="INFO">HELLO WORLD</msg>
+<status status="PASS" starttime="20250326 23:19:46.639" endtime="20250326 23:19:46.676"/>
+</kw>
+<status status="PASS" starttime="20250326 23:19:46.633" endtime="20250326 23:19:46.711"/>
+</test>
+<status status="PASS" starttime="20250326 23:19:46.499" endtime="20250326 23:19:46.751"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="File">File</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20250326 23:19:46.614" level="ERROR">Error in file 'f:\Testing\Automatic_testing\Robot_VsCode\Robot_WebAutomation\File.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  c:\Users\Ahmed\.vscode\extensions\robocorp.robotframework-lsp-1.13.0\src\robotframework_debug_adapter
+  F:\Testing\Automatic_testing\Robot_VsCode\Robot_WebAutomation
+  c:\Users\Ahmed\.vscode\extensions\robocorp.robotframework-lsp-1.13.0\src
+  c:\Users\Ahmed\.vscode\extensions\robocorp.robotframework-lsp-1.13.0\src\robotframework_ls\vendored
+  c:\ProgramData\robocorp\ht\8646b15_b1f3c24_66529ced\python310.zip
+  c:\ProgramData\robocorp\ht\8646b15_b1f3c24_66529ced\DLLs
+  c:\ProgramData\robocorp\ht\8646b15_b1f3c24_66529ced\lib
+  c:\ProgramData\robocorp\ht\8646b15_b1f3c24_66529ced
+  C:\Users\Ahmed\AppData\Roaming\Python\Python310\site-packages
+  c:\ProgramData\robocorp\ht\8646b15_b1f3c24_66529ced\lib\site-packages
+  c:\ProgramData\robocorp\ht\8646b15_b1f3c24_66529ced\lib\site-packages\win32
+  c:\ProgramData\robocorp\ht\8646b15_b1f3c24_66529ced\lib\site-packages\win32\lib
+  c:\ProgramData\robocorp\ht\8646b15_b1f3c24_66529ced\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>
