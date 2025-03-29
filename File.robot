@@ -6,6 +6,6 @@ Library    SeleniumLibrary
 
 *** Tasks ***
 Task_1 
-    Log    Hello World
+    Log    Welcome Robot Framework
 
 
