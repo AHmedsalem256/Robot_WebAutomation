@@ -6,7 +6,6 @@ Library    SeleniumLibrary
 
 *** Tasks ***
 Task_1 
-    Log     HELLO WORLD
-
+    Log    Hello World
 
 
