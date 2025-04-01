@@ -6,5 +6,5 @@ Library    SeleniumLibrary
 
 *** Tasks ***
 Task_1 
-    Log    Welcom To Jenkins-Robto Integration 
+    Log    Welcome To Jenkins-Robto Integration 
 
