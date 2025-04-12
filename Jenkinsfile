@@ -24,6 +24,7 @@ pipeline {
                     reportFiles: 'report.html',
                     alwaysLinkToLastBuild: true,
                     keepAll: true,
+                    allowMissing: false,
                     reportName: 'Robot Test Report'
                 ])
             }
